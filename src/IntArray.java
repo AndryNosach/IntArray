@@ -130,15 +130,13 @@ public class IntArray {
     /**
      * Merge two arrays in one
      *
-     * @param array1
-     *          first array
-     * @param array2
-     *          second array
-     * @return merged array
+     * @param index
+     *          starting index for merge
+     * @param subArray
+     *          array to be merged
      */
-    public int[] merge(int[] array1, int[] array2) {
+    public void merge(int index, int[] subArray) {
         //ToDo: add implementation
-       return null;
     }
 
     /**
@@ -151,17 +149,5 @@ public class IntArray {
     public boolean contains(int element) {
         //ToDo: add implementation
         return false;
-    }
-
-    /**
-     * Insert subArray by index
-     *
-     * @param index
-     *          the index
-     * @param subArray
-     *          the array to be inserted
-     */
-    public void insert(int index, int[] subArray) {
-        //ToDo: add implementation
     }
 }
